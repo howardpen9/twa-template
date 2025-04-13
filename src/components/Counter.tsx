@@ -27,7 +27,7 @@ export function Counter() {
           </FlexBoxRow>
           <FlexBoxRow>
             <b>Value</b>
-            <div>{value ?? "Loading..."}</div>
+            <div>{String(value ?? "Loading...")}</div>
           </FlexBoxRow>
           <Button
             disabled={!connected}
